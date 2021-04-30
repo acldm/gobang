@@ -1,0 +1,26 @@
+.players-state {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board-wrapper {
+    width: min(800px, 100vw);
+    height: min(800px, 100vw);
+    background-color: #fdcd69;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}

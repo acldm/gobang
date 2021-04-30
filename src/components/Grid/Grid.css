@@ -1,0 +1,64 @@
+.grid {
+  position: relative;
+  flex: 2;
+  /* transform: translateX(-50%) translateY(-50%); */
+}
+
+.grid::before, .grid::after {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.grid::before {
+  height: 1px;
+  margin: auto 0;
+  border-top: 1px solid black;
+}
+
+.grid::after {
+  width: 1px;
+  margin: 0 auto;
+  border-left: 1px solid black;
+}
+
+.pos {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  z-index: 999;
+}
+
+.pos > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flag {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  color: salmon;
+  font-weight: bold;
+  z-index: 1000;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

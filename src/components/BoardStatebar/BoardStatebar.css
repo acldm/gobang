@@ -1,0 +1,10 @@
+.state-bar {
+    display: flex;
+}
+
+.state {
+    flex: 1;
+}
+.column-direction {
+    flex-direction: column;
+}

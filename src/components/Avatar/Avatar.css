@@ -1,0 +1,36 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.avatar > * {
+  margin: 0 6px;
+}
+
+.avatar.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.avatar-img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.img-fruit {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #765127;
+}
+
+.camp-state {
+  width: 2rem;
+  height: 2rem;
+  border: 4px solid #48dca4;
+  border-radius: 100%;
+}
